@@ -146,3 +146,67 @@ Cet exemple suppose que le schéma expose une requête `allAccounts`.
 **Mohamed Yawina**
 
 Projet réalisé dans le cadre des travaux pratiques de développement Java et Spring Boot.
+
+
+\## Démonstration et résultats
+
+
+
+Cette section présente les captures d'écran des fonctionnalités développées et testées dans le cadre du TP1 Spring Boot.
+
+
+
+\### 1. Documentation REST avec Swagger
+
+
+
+Visualisation des endpoints REST permettant de consulter, créer, modifier et supprimer des comptes bancaires.
+
+
+
+!\[Swagger UI](docs/screenshots/01-swagger.png)
+
+
+
+\### 2. Test de l'API REST
+
+
+
+Exécution d'une requête REST pour consulter les comptes bancaires et vérifier la réponse de l'API.
+
+
+
+!\[API REST](docs/screenshots/02-rest-api.png)
+
+
+
+\### 3. Base de données H2
+
+
+
+Consultation de la base H2 utilisée par Spring Boot pour stocker les comptes bancaires.
+
+
+
+!\[H2 Database](docs/screenshots/03-h2-database.png)
+
+
+
+\### 4. Test de GraphQL avec Postman
+
+
+
+Exécution d'une requête GraphQL `allComptes` pour récupérer les identifiants, soldes et types des comptes bancaires.
+
+
+
+!\[GraphQL avec Postman](docs/screenshots/04-graphql-result.png)
+
+
+
+\### Bilan
+
+
+
+Les démonstrations présentent les fonctionnalités principales du TP : API REST, documentation Swagger, persistance avec H2 et interrogation des données avec GraphQL.
+
